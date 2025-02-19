@@ -1,0 +1,58 @@
+/* Banner */
+.banner {
+    background: url("https://dummyimage.com/1200x400/000/fff&text=Banner+Cocinando+con+Git") center/cover;
+    position: relative;
+}
+
+.banner .container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.titulo-banner {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Sección de recetas */
+.recetas-caseras {
+    background: #fffaf0;
+}
+
+/* Estilos de las cards */
+.card {
+    border-radius: 10px;
+    transition: 0.3s;
+    height: 100%; /* Asegura que todas las cards ocupen la misma altura */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Asegurar que el contenido dentro de la card sea uniforme */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribuye los elementos */
+    flex-grow: 1; /* Hace que el contenido crezca de forma uniforme */
+}
+
+/* Fijar altura para el título y la descripción */
+.card-title {
+    min-height: 50px;
+}
+
+.card-text {
+    min-height: 60px;
+}
+
+/* Botón en la parte inferior */
+.btn-warning {
+    background: #ff9800;
+    border: none;
+    margin-top: auto; /* Empuja el botón hacia abajo */
+}
+
+.btn-warning:hover {
+    background: #e68900;
+}
